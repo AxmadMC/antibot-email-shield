@@ -1,0 +1,26 @@
+/* Antibot Email Shield */
+.abes{display:inline-flex;flex-direction:column;align-items:flex-start;gap:8px;font-family:inherit;}
+.abes .abes-btn{
+	display:inline-flex;align-items:center;gap:8px;cursor:pointer;
+	font:600 14px/1.2 'Inter',system-ui,sans-serif;
+	color:#fff !important;background:#07A698 !important;border:1px solid #07A698 !important;
+	border-radius:10px;padding:9px 16px;
+	box-shadow:0 10px 24px -12px rgba(7,166,152,.6);
+	transition:background .2s ease,border-color .2s ease,color .2s ease;
+}
+.abes .abes-btn:hover{background:#C9A227 !important;border-color:#C9A227 !important;color:#0B0F14 !important;}
+.abes .abes-btn:disabled{opacity:.6;cursor:wait;}
+.abes .abes-btn svg{width:16px;height:16px;flex-shrink:0;}
+.abes [hidden]{display:none !important;}
+.abes .abes-result{display:inline-flex;align-items:center;gap:10px;flex-wrap:wrap;}
+.abes .abes-link{
+	font-weight:600;color:#058F83 !important;text-decoration:none !important;
+	border-bottom:1px solid rgba(7,166,152,.35);
+}
+.abes .abes-link:hover{color:#C9A227 !important;border-color:#C9A227;}
+.abes .abes-count{
+	font:500 12px/1 'JetBrains Mono',ui-monospace,monospace;color:#68727C;
+	background:#F1F5F4;border:1px solid #E3E3EC;border-radius:999px;padding:4px 9px;
+}
+.abes .abes-msg{font-size:13px;color:#68727C;}
+.abes .abes-msg:empty{display:none;}
